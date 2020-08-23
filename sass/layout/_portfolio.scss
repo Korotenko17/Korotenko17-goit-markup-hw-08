@@ -396,6 +396,12 @@
 }
 
 @media screen and (min-width: 1200px) {
+
+    .div-container {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
         
     .portfolio-btn {
         font-weight: 500;
