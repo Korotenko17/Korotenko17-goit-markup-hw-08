@@ -181,7 +181,189 @@
       }
 }
 
+@media screen and (min-width: 768px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .header-container .div-container {
+        width: 768px;
+        height: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .nav-list-container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-header-web,
+    .logo-header-studio,
+    .web-podval,
+    .studio-podval {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: $accent-color;
+    }
+
+    .logo-header-studio {
+        color: $main-black-color;
+    }
+
+    .link-nav,
+    .mail-tel-text,
+    .tel-container-podval,
+    .adress-podval {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: $primary-title-color;
+    }
+
+    .mail-tel-text {
+        display: flex;
+        align-items: center;
+        color: $primary-text-color;
+
+        &:hover .pages-adress,
+        &:focus .pages-adress {
+            fill: $accent-color;
+        }
+    }
+
+
+    .link-nav:hover, 
+    .link-nav:focus,
+    .mail-tel-text:hover,
+    .mail-tel-text:focus,
+    .adress-podval:hover,
+    .podval-adress-link:focus .adress-podval{
+        color: $accent-color;
+    }
+
+
+    .header-container {
+        width: 768px;
+        margin-right: auto;
+        margin-left: auto;
+
+        border-bottom: 1px solid #ececec;
+
+        & .div-container {
+            display: flex;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+
+    .menu-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contacts-container {
+        display: flex;
+        margin-left: auto;
+        flex-direction: column;
+        align-items: baseline;
+        margin-left: 84px;
+
+    }
+
+    .logo-container {
+        margin: 0;
+        margin-right: 81px; 
+    }
+
+    .pages-adress {
+        margin-right: 10px;
+    }
+
+    .nav-list-container {
+        margin: 0;
+        display: flex;
+    }
+
+    .nav-list-container .list:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    .mail-container {
+        margin-bottom: 10px;
+    }
+
+    .mail-container,
+    .tel-container {
+        align-items: center;
+    }
+
+    .studio-line::after {
+        position: absolute;
+        display: block;
+        background-color: $accent-color;
+        width: 100%;
+        height: 4px;
+        content: "";
+        bottom: 0;
+    }
+
+    .portfolio-line:after {
+        position: absolute;
+        display: block;
+        background-color: $accent-color;
+        width: 100%;
+        height: 4px;
+        content: "";
+        bottom: 0;
+    }
+
+    // .portfolio-line,
+    // .studio-line {
+    //     padding-bottom: 32px;
+    // }
+
+    .portfolio-line,
+    .studio-line {
+        position: relative;
+    }
+
+}
+
+
 @media screen and (min-width: 1200px) {
+    
+    .header-container .div-container {
+        width: 1200px;
+        height: 81px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    
+    }
+
     .logo-header-web,
     .logo-header-studio,
     .web-podval,
@@ -257,13 +439,13 @@
     .contacts-container {
         display: flex;
         align-items: center;
-        margin-left: auto;
+        margin-left: 200px;
+        flex-direction: row;
     }
 
     .logo-container {
         margin: 0;
         margin-right: 85px; 
-        margin-top: 24px;
     }
 
     .pages-adress {
@@ -275,16 +457,10 @@
         display: flex;
     }
 
-    .studio {
-        margin-right: 50px;
-    }
-
-    .portfolio {
-        margin-right: 43px;
-    }
 
     .mail-container {
         margin-right: 30px;
+        margin-bottom: 0;
     }
 
     .mail-container,
@@ -292,30 +468,10 @@
         align-items: center;
     }
 
-    .studio-line::after {
-        position: absolute;
-        display: block;
-        background-color: $accent-color;
-        width: 47px;
-        height: 4px;
-        content: "";
-        bottom: 0;
-    }
-
-    .portfolio-line:after {
-        position: absolute;
-        display: block;
-        background-color: $accent-color;
-        width: 77px;
-        height: 4px;
-        content: "";
-        bottom: 0;
-    }
-
-    .portfolio-line,
-    .studio-line {
-        padding-bottom: 25px;
-    }
+    // .portfolio-line,
+    // .studio-line {
+    //     padding-bottom: 28px;
+    // }
 
     .portfolio-line,
     .studio-line {
