@@ -13,6 +13,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .otstup-chem-mi {
+        display: block;
+    }
+
     .title {
         font-weight: 700;
         font-size: 36px;
@@ -47,5 +51,29 @@
     .otstup-chem-mi {
         padding-top: 47px;
         padding-bottom: 94px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        .chem1 {
+            background-image: url(../images/chem1@2x.jpg);
+        }
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        .chem2 {
+            background-image: url(../images/chem2@2x.jpg);
+        }
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        .chem3 {
+            background-image: url(../images/chem3@2x.jpg);
+        }
     }
 }
