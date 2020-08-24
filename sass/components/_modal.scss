@@ -9,9 +9,9 @@
   }
 
   .form {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 0;
+    top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,9 +263,9 @@
   }
 
   .form {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 0;
+    top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
