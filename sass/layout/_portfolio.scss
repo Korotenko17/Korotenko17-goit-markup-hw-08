@@ -498,6 +498,8 @@
     .gruperovka {
         display: flex;
         flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .flex-element {
@@ -538,6 +540,14 @@
 
     .flex-element:nth-child(3n) {
         margin-right: 0px;
+    }
+
+    .flex-element:nth-child(2n) {
+        margin-right: 30px;
+    }
+
+    .flex-element:nth-child(6) {
+        margin-right: 0;
     }
 
     .flex-element:nth-last-child(-n + 3) {

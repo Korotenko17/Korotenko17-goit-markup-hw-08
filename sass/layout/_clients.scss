@@ -59,15 +59,14 @@
     }
 }
 
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
     .icon-client {
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 170px;
+        width: 226px;
         height: 90px;
     
         &:hover,
@@ -76,7 +75,21 @@
         }
     }
     
+    .klient-list .link {
+        width: calc((100% - 60px) / 3);
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+        &.link:nth-child(3n) {
+            margin-right: 0px;
+        }
+
+        &.link:nth-last-child(-n + 3) {
+            margin-bottom: 0px;
+        }
+    }
     
+
     
     .client-icon-logo {
         fill: #AFB1B8;
@@ -95,8 +108,49 @@
         fill: $accent-color;
     }
     
-    .klient-list .link:not(:last-child) {
-        margin-right: 30px;
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .icon-client {
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 90px;
+    
+        &:hover,
+        &:focus {
+            border-color: $accent-color;
+        }
     }
+    
+    .klient-list .link {
+        margin-bottom: 0;
+
+        &.link:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+    
+    .client-icon-logo {
+        fill: #AFB1B8;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-client:hover .client-icon-logo,
+    .icon-client:focus .client-icon-logo {
+        fill: $accent-color;
+    }
+    .client-icon:focus .icon-client {
+        border-color: $accent-color;
+    }
+    
+    .client-icon:focus .client-icon-logo {
+        fill: $accent-color;
+    }
+
 }
 
