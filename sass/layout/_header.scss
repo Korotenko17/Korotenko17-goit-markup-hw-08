@@ -1,6 +1,10 @@
 /*header*/
 
 @media screen and (max-width: 767px) {
+    .header-container {
+        border-bottom: 1px solid #ececec;
+    }
+
     .header-container .div-container {
         max-width: 480px;
         height: 60px;
@@ -94,6 +98,10 @@
     .mail-container,
     .tel-container {
         align-items: center;
+    }
+
+    .pages-adress {
+        margin-right: 10px;
     }
 
     .studio-line::after {
