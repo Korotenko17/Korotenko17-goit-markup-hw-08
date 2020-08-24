@@ -80,7 +80,6 @@
         display: flex;
         font-size: 18px;
         line-height: 1.167;
-
     }
 
     .nav-container {
@@ -351,16 +350,7 @@
     
     .header-container .div-container {
         width: 1200px;
-        height: 81px;
-        margin-right: auto;
-        margin-left: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        position: relative;
-    
+        height: 81px;    
     }
 
     .logo-header-web,
@@ -461,11 +451,5 @@
         margin-right: 30px;
         margin-bottom: 0;
     }
-
-    .mail-container,
-    .tel-container {
-        align-items: center;
-    }
-
 }
 
