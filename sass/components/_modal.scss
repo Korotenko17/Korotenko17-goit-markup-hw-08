@@ -78,8 +78,8 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 1.67;
 
     letter-spacing: 0.03em;
 
@@ -332,8 +332,8 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 1.67;
 
     letter-spacing: 0.03em;
 
@@ -342,7 +342,7 @@
 
   .form-soglashenie {
     display: flex;
-    box-sizing: content-box;
+    align-items: center;
   }
 
 
