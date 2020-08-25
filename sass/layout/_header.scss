@@ -101,6 +101,7 @@
 
     .pages-adress {
         margin-right: 10px;
+        fill: $primary-text-color;
     }
 
     .studio-line::after {
@@ -169,13 +170,11 @@
         z-index: 99;
         top: 60px;
         right: 0;
-        width: 480px;
+        width: 100%;
         padding-top: 118px;
         background-color: #fff;
         padding-top: 120px;
         padding-bottom: 60px;
-        padding-left: 140px;
-        padding-right: 140px;
         opacity: 0;
         animation-duration: 1000ms;
         display: none;
@@ -304,6 +303,7 @@
 
     .pages-adress {
         margin-right: 10px;
+        fill: $primary-text-color;
     }
 
     .nav-list-container {

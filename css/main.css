@@ -19,6 +19,7 @@ html {
    */
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /**
@@ -462,7 +463,6 @@ img {
   }
   .form {
     position: absolute;
-    left: 0;
     top: 100px;
     display: flex;
     justify-content: center;
@@ -482,7 +482,7 @@ img {
   .modal-form {
     position: relative;
     padding: 40px;
-    max-width: 450px;
+    width: 450px;
     height: 609px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -503,7 +503,7 @@ img {
     margin-bottom: 30px;
   }
   .modal-form-list {
-    width: 370px;
+    width: 100%;
   }
   .form-metka-text {
     margin-left: 8px;
@@ -1022,6 +1022,7 @@ img {
   }
   .pages-adress {
     margin-right: 10px;
+    fill: #757575;
   }
   .studio-line::after {
     position: absolute;
@@ -1077,13 +1078,11 @@ img {
     z-index: 99;
     top: 60px;
     right: 0;
-    width: 480px;
+    width: 100%;
     padding-top: 118px;
     background-color: #fff;
     padding-top: 120px;
     padding-bottom: 60px;
-    padding-left: 140px;
-    padding-right: 140px;
     opacity: 0;
     animation-duration: 1000ms;
     display: none;
@@ -1194,6 +1193,7 @@ img {
   }
   .pages-adress {
     margin-right: 10px;
+    fill: #757575;
   }
   .nav-list-container {
     margin: 0;
@@ -1360,7 +1360,7 @@ img {
     margin-right: auto;
   }
   .hero {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mob.png);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mob.jpg);
     max-width: 480px;
     height: 400px;
     background-repeat: no-repeat;
@@ -1371,7 +1371,7 @@ img {
 
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mob@2x.png);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-mob@2x.jpg);
   }
 }
 
@@ -1433,8 +1433,8 @@ img {
     margin-right: auto;
   }
   .hero {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tab.png);
-    max-width: 768px;
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tab.jpg);
+    width: 100%;
     height: 400px;
     background-repeat: no-repeat;
     margin-right: auto;
@@ -1444,7 +1444,7 @@ img {
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tab@2x.png);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-tab@2x.jpg);
   }
 }
 
@@ -1466,8 +1466,6 @@ img {
 @media screen and (min-width: 1200px) {
   .hero-container {
     width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
   }
   .hero-title {
     font-size: 44px;
@@ -1475,21 +1473,15 @@ img {
     margin-top: 185px;
   }
   .hero {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-desk.png);
-    max-width: 1600px;
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-desk.jpg);
+    width: 100%;
     height: 600px;
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-desk@2x.png);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-container {
-    width: 1200px;
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-desk@2x.jpg);
   }
 }
 
@@ -1711,6 +1703,9 @@ img {
   .komanda-title {
     margin-bottom: 10px;
   }
+  .otstup-container .container {
+    overflow: hidden;
+  }
   .team {
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   }
@@ -1857,13 +1852,15 @@ img {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .klient-list .link {
+    width: calc((100% - 60px) / 2);
+  }
   .icon-client {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
     height: 90px;
   }
   .icon-client:hover, .icon-client:focus {
@@ -2302,7 +2299,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .podval {
-    max-width: 480px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     background: #2F303A;
@@ -2399,6 +2396,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .action {
     display: flex;
@@ -2426,7 +2424,7 @@ img {
     margin-top: 20px;
   }
   .pole {
-    width: 354px;
+    width: calc((100% - 30px) / 1);
     height: 50px;
     background-color: #2f303f;
     border: 1px solid rgba(255, 255, 255, 0.3);

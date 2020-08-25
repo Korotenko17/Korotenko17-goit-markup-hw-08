@@ -10,6 +10,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+        & .link {
+            width: calc((100% - 60px) / 2);
+        }
     }
 
     .icon-client {
@@ -18,7 +22,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 170px;
         height: 90px;
     
         &:hover,

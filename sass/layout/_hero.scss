@@ -50,7 +50,7 @@
         background-image: linear-gradient(to bottom,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/header-mob.png);
+        url(../images/header-mob.jpg);
         max-width: 480px;
         height: 400px;
         background-repeat: no-repeat;
@@ -65,7 +65,7 @@
             background-image: linear-gradient(to bottom,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), 
-            url(../images/header-mob@2x.png);
+            url(../images/header-mob@2x.jpg);
         }
     }
     .hero-container {
@@ -137,8 +137,8 @@
         background-image: linear-gradient(to bottom,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/header-tab.png);
-        max-width: 768px;
+        url(../images/header-tab.jpg);
+        width: 100%;
         height: 400px;
         background-repeat: no-repeat;
         margin-right: auto;
@@ -152,7 +152,7 @@
             background-image: linear-gradient(to bottom,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), 
-            url(../images/header-tab@2x.png);
+            url(../images/header-tab@2x.jpg);
         }
     }
     
@@ -177,8 +177,6 @@
 
     .hero-container {
         width: 1200px;
-        margin-right: auto;
-        margin-left: auto;
     }
 
     .hero-title {
@@ -191,8 +189,8 @@
         background-image: linear-gradient(to bottom,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/header-desk.png);
-        max-width: 1600px;
+        url(../images/header-desk.jpg);
+        width: 100%;
         height: 600px;
     }
 
@@ -203,12 +201,8 @@
             background-image: linear-gradient(to bottom,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), 
-            url(../images/header-desk@2x.png);
+            url(../images/header-desk@2x.jpg);
         }
-    }
-    
-    .hero-container {
-        width: 1200px;
     }
 }
 
