@@ -625,7 +625,7 @@ img {
   }
   .modal-form-list:hover .form-img {
     fill: #2196F3;
-    box-sizing: 12px;
+    font-size: 12px;
   }
   .modal-form-list:hover input,
   .modal-form-list:hover textarea {
@@ -650,7 +650,7 @@ img {
     color: #2196F3;
     top: -20px;
     left: 16px;
-    box-sizing: 12px;
+    font-size: 12px;
   }
   .form-input:focus ~ .form-img {
     fill: #2196F3;
@@ -832,7 +832,7 @@ img {
   }
   .modal-form-list:hover .form-img {
     fill: #2196F3;
-    box-sizing: 12px;
+    font-size: 12px;
   }
   .modal-form-list:hover input,
   .modal-form-list:hover textarea {
@@ -857,7 +857,7 @@ img {
     color: #2196F3;
     top: -20px;
     left: 16px;
-    box-sizing: 12px;
+    font-size: 12px;
   }
   .form-input:focus ~ .form-img {
     fill: #2196F3;
@@ -1979,7 +1979,7 @@ img {
     color: #ffffff;
   }
   .div-container {
-    max-width: 480pxpx;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
